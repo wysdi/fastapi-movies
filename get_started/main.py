@@ -6,7 +6,7 @@ import json
 app = FastAPI()
 
 #using External Local Data
-with open("movie.json") as f:
+with open("./get_started/movie.json") as f:
     movies = json.load(f)
 
 
